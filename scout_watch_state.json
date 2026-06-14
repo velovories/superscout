@@ -1,0 +1,2017 @@
+{
+ "tokenize-dot-it-token-sc-dualdefense-audit": {
+  "ev": 76.0,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 5000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Tokenize.it Token SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/tokenize-dot-it-token-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "27 Jun 2026"
+ },
+ "tiprun-smart-contract-audit-contest": {
+  "ev": 75.5,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 15000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "TipRun Smart Contract Audit Contest",
+  "url": "https://hackenproof.com/audit-programs/tiprun-smart-contract-audit-contest",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "24 Jun 2026"
+ },
+ "adi-predictstreet-sc-dualdefense-audit": {
+  "ev": 75.3,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "ADI Predictstreet SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/adi-predictstreet-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "12 Jun 2026"
+ },
+ "neyro-sc-dualdefense-audit": {
+  "ev": 75.2,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 4000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Neyro SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/neyro-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "09 Jun 2026"
+ },
+ "0xmarkets-audit-contest": {
+  "ev": 75.0,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 30000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "0xMarkets Audit Contest",
+  "url": "https://hackenproof.com/audit-programs/0xmarkets-audit-contest",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "08 Jul 2026"
+ },
+ "dreamx-hodlbonds-sc-dualdefense-audit": {
+  "ev": 74.3,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 6000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "DreamX HODLBonds SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/dreamx-hodlbonds-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "12 Jun 2026"
+ },
+ "dreamx-hodlbonds-web-and-dapp-dualdefense-audit": {
+  "ev": 73.9,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 6000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "DreamX HODLBonds Web&dApp DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/dreamx-hodlbonds-web-and-dapp-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "12 Jun 2026"
+ },
+ "superearn-web-and-smart-contracts": {
+  "ev": 71.8,
+  "verdict": "+EV",
+  "dup_pays": null,
+  "max_bounty": 30000.0,
+  "domains": [
+   "smart_contract",
+   "web"
+  ],
+  "title": "SuperEarn Web & Smart Contracts",
+  "url": "https://hackenproof.com/programs/superearn-web-and-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": "26 May 2027"
+ },
+ "digbi2121-sc-dualdefense-audit": {
+  "ev": 69.8,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 1000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Digbi2121 SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/digbi2121-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "23 May 2026"
+ },
+ "sundial-web-and-dapp-dualdefense-audit": {
+  "ev": 69.3,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Sundial Web&dApp DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/sundial-web-and-dapp-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "04 Jun 2026"
+ },
+ "kiichain-l1-dualdefense-audit": {
+  "ev": 69.3,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 10000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "KiiChain L1 DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/kiichain-l1-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "08 Jun 2026"
+ },
+ "hyperbridge-protocol": {
+  "ev": 67.0,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 50000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "Hyperbridge Protocol",
+  "url": "https://hackenproof.com/programs/hyperbridge-protocol",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "flow-protocol": {
+  "ev": 67.0,
+  "verdict": "+EV",
+  "dup_pays": null,
+  "max_bounty": 100000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "Flow Protocol",
+  "url": "https://hackenproof.com/programs/flow-protocol",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "aptos-function-values": {
+  "ev": 64.8,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 1000000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Aptos Function Values",
+  "url": "https://hackenproof.com/programs/aptos-function-values",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "31 Aug 2025"
+ },
+ "citrea-protocol-and-smart-contracts": {
+  "ev": 64.0,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 250000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "Citrea Protocol & Smart Contracts",
+  "url": "https://hackenproof.com/programs/citrea-protocol-and-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "polkadot-sdk-runtime-by-parity": {
+  "ev": 63.8,
+  "verdict": "+EV",
+  "dup_pays": null,
+  "max_bounty": 25000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Polkadot SDK, Runtime by Parity",
+  "url": "https://hackenproof.com/programs/polkadot-sdk-runtime-by-parity",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "nicehash-mining-platform": {
+  "ev": 63.7,
+  "verdict": "+EV",
+  "dup_pays": null,
+  "max_bounty": 25000.0,
+  "domains": [
+   "api",
+   "blockchain",
+   "mobile",
+   "web"
+  ],
+  "title": "NiceHash Mining platform",
+  "url": "https://hackenproof.com/programs/nicehash-mining-platform",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "dexalot-smart-contracts-2": {
+  "ev": 63.6,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Dexalot Smart Contracts",
+  "url": "https://hackenproof.com/programs/dexalot-smart-contracts-2",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "idos-apps-and-sc-1": {
+  "ev": 63.0,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "api",
+   "blockchain",
+   "smart_contract",
+   "web"
+  ],
+  "title": "idOS Apps and SC",
+  "url": "https://hackenproof.com/programs/idos-apps-and-sc-1",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "citrea-web-and-apps": {
+  "ev": 63.0,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 25000.0,
+  "domains": [
+   "blockchain",
+   "web"
+  ],
+  "title": "Citrea Web & Apps",
+  "url": "https://hackenproof.com/programs/citrea-web-and-apps",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "near-intents-smart-contracts": {
+  "ev": 63.0,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 300000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "NEAR Intents: Smart Contracts",
+  "url": "https://hackenproof.com/programs/near-intents-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "arcadia-finance-company-smart-contracts": {
+  "ev": 62.8,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 25000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Arcadia Finance Smart Contracts",
+  "url": "https://hackenproof.com/programs/arcadia-finance-company-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "the-flipcash-reserve-contract-bug-bounty": {
+  "ev": 61.4,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 250000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "The Flipcash Reserve Contract Bug Bounty",
+  "url": "https://hackenproof.com/programs/the-flipcash-reserve-contract-bug-bounty",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "31 Mar 2026"
+ },
+ "walrus-protocol": {
+  "ev": 60.6,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "Walrus Protocol",
+  "url": "https://hackenproof.com/programs/walrus-protocol",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "ample-smart-contracts": {
+  "ev": 59.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 20000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Ample Smart Contracts",
+  "url": "https://hackenproof.com/programs/ample-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "solv-web-and-infrastructure": {
+  "ev": 59.7,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 20000.0,
+  "domains": [
+   "api",
+   "blockchain",
+   "web"
+  ],
+  "title": "Solv Web & Infrastructure ",
+  "url": "https://hackenproof.com/programs/solv-web-and-infrastructure",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bigone-hack-bounty-program": {
+  "ev": 59.4,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 8100000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "BigONE Hack Bounty Program ",
+  "url": "https://hackenproof.com/programs/bigone-hack-bounty-program",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "26 May 2026"
+ },
+ "bitmart-post-incident-forensics-bounty-hunt": {
+  "ev": 59.4,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 58000000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Bitmart Post-Incident Forensics Bounty Hunt",
+  "url": "https://hackenproof.com/programs/bitmart-post-incident-forensics-bounty-hunt",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "scallop-protocol-smart-contract": {
+  "ev": 59.3,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 300000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Scallop Protocol (Smart Contract)",
+  "url": "https://hackenproof.com/programs/scallop-protocol-smart-contract",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "detee-hackers-challenge": {
+  "ev": 58.3,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 14380.0,
+  "domains": [],
+  "title": "DeTEE Hackers Challenge",
+  "url": "https://hackenproof.com/programs/detee-hackers-challenge",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "28 Jul 2025"
+ },
+ "calyx-smart-contract": {
+  "ev": 58.2,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 100000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Calyx Smart Contract",
+  "url": "https://hackenproof.com/programs/calyx-smart-contract",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "kai-finance-yield-protocol": {
+  "ev": 58.1,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Kai Finance Yield Protocol",
+  "url": "https://hackenproof.com/programs/kai-finance-yield-protocol",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "alphasec-web-and-smart-contracts": {
+  "ev": 58.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 30000.0,
+  "domains": [
+   "smart_contract",
+   "web"
+  ],
+  "title": "AlphaSec Web & Smart Contracts ",
+  "url": "https://hackenproof.com/programs/alphasec-web-and-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": "04 Feb 2027"
+ },
+ "snowbridge-on-chain-code": {
+  "ev": 58.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 75000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Snowbridge On-Chain Code",
+  "url": "https://hackenproof.com/programs/snowbridge-on-chain-code",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "whitechain-bridge": {
+  "ev": 57.7,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Whitechain Bridge",
+  "url": "https://hackenproof.com/programs/whitechain-bridge",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "1inch-aqua": {
+  "ev": 57.2,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "1inch Aqua",
+  "url": "https://hackenproof.com/programs/1inch-aqua",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "volo-smart-contracts": {
+  "ev": 57.2,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 150000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Volo Smart Contracts",
+  "url": "https://hackenproof.com/programs/volo-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "btcturk-hack-recovery-program": {
+  "ev": 57.2,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 2400000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "BtcTurk Hack Recovery Program",
+  "url": "https://hackenproof.com/programs/btcturk-hack-recovery-program",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "08 Apr 2026"
+ },
+ "arcadia-finance-hack-recovery-program": {
+  "ev": 57.2,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 360000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Arcadia Finance Hack Recovery Program",
+  "url": "https://hackenproof.com/programs/arcadia-finance-hack-recovery-program",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "08 Apr 2026"
+ },
+ "mybucks-dot-online-wallet-cracking-challenge": {
+  "ev": 56.2,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 1100.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Mybucks.online Wallet Cracking Challenge",
+  "url": "https://hackenproof.com/programs/mybucks-dot-online-wallet-cracking-challenge",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "05 Mar 2026"
+ },
+ "coinw-web-and-mobile": {
+  "ev": 56.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 2000.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "CoinW Web & Mobile",
+  "url": "https://hackenproof.com/programs/coinw-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "ember-vaults-smart-contracts": {
+  "ev": 56.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 15000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Ember Vaults Smart Contracts",
+  "url": "https://hackenproof.com/programs/ember-vaults-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bluefin-dex-contracts": {
+  "ev": 56.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 15000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Bluefin Dex Contracts",
+  "url": "https://hackenproof.com/programs/bluefin-dex-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "near-intents-sdk": {
+  "ev": 54.6,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 20000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "NEAR Intents: SDK",
+  "url": "https://hackenproof.com/programs/near-intents-sdk",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "ston-dot-fi-dex-smart-contracts-v2": {
+  "ev": 54.5,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "STON.fi DEX Smart Contracts v2",
+  "url": "https://hackenproof.com/programs/ston-dot-fi-dex-smart-contracts-v2",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "solv-smart-contracts": {
+  "ev": 54.1,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 50000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Solv Smart Contracts",
+  "url": "https://hackenproof.com/programs/solv-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "snowbridge-web": {
+  "ev": 54.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 15000.0,
+  "domains": [
+   "blockchain",
+   "web"
+  ],
+  "title": "Snowbridge Web",
+  "url": "https://hackenproof.com/programs/snowbridge-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "15 Apr 2026"
+ },
+ "1inch-infrastructure": {
+  "ev": 54.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 20000.0,
+  "domains": [
+   "api",
+   "blockchain",
+   "web"
+  ],
+  "title": "1inch Infrastructure",
+  "url": "https://hackenproof.com/programs/1inch-infrastructure",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "nado-smart-contracts": {
+  "ev": 53.6,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 500000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Nado Smart Contracts ",
+  "url": "https://hackenproof.com/programs/nado-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "astros-smart-contracts": {
+  "ev": 53.6,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 150000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Astros Smart Contracts",
+  "url": "https://hackenproof.com/programs/astros-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "navi-protocol": {
+  "ev": 53.6,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 300000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "NAVI Protocol",
+  "url": "https://hackenproof.com/programs/navi-protocol",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "ember-evm-smart-contracts": {
+  "ev": 53.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 15000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Ember EVM Smart Contracts",
+  "url": "https://hackenproof.com/programs/ember-evm-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "momentum-smart-contracts": {
+  "ev": 52.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 200000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Momentum Smart Contracts",
+  "url": "https://hackenproof.com/programs/momentum-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "turbos-finance-smart-contracts": {
+  "ev": 52.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 15000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Turbos Finance Smart Contracts",
+  "url": "https://hackenproof.com/programs/turbos-finance-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "cetus-smart-contracts": {
+  "ev": 52.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 300000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Cetus Smart Contracts",
+  "url": "https://hackenproof.com/programs/cetus-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "1inch-business": {
+  "ev": 52.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "api",
+   "web"
+  ],
+  "title": "1inch Business",
+  "url": "https://hackenproof.com/programs/1inch-business",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bluefin-coin-contracts": {
+  "ev": 52.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 15000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Bluefin Coin Contracts",
+  "url": "https://hackenproof.com/programs/bluefin-coin-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "multipli-smart-contracts": {
+  "ev": 52.3,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Multipli Smart Contracts",
+  "url": "https://hackenproof.com/programs/multipli-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "sweed-web": {
+  "ev": 52.2,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 2000.0,
+  "domains": [
+   "blockchain",
+   "web"
+  ],
+  "title": "Sweed Web ",
+  "url": "https://hackenproof.com/programs/sweed-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "parity-polkadot-release-infrastructure": {
+  "ev": 51.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 25000.0,
+  "domains": [
+   "blockchain",
+   "web"
+  ],
+  "title": "Parity Polkadot Release Infrastructure ",
+  "url": "https://hackenproof.com/programs/parity-polkadot-release-infrastructure",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "polkadot-bridge": {
+  "ev": 51.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Polkadot Bridge",
+  "url": "https://hackenproof.com/programs/polkadot-bridge",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "flowx-clmm-smart-contracts": {
+  "ev": 51.5,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "FlowX CLMM Smart Contracts",
+  "url": "https://hackenproof.com/programs/flowx-clmm-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "stbl-smart-contracts": {
+  "ev": 51.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 20000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "STBL Smart Contracts",
+  "url": "https://hackenproof.com/programs/stbl-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bucket-protocol-smart-contracts": {
+  "ev": 51.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 500000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Bucket Protocol Smart Contracts",
+  "url": "https://hackenproof.com/programs/bucket-protocol-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "haedal-smart-contracts": {
+  "ev": 51.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 200000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Haedal Smart Contracts",
+  "url": "https://hackenproof.com/programs/haedal-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "coindcx-recovery-bounty-program": {
+  "ev": 51.2,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 11000000.0,
+  "domains": [],
+  "title": "CoinDCX Recovery Bounty Program",
+  "url": "https://hackenproof.com/programs/coindcx-recovery-bounty-program",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "16 Dec 2025"
+ },
+ "nonkyc-dot-io": {
+  "ev": 51.2,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "api",
+   "blockchain",
+   "mobile",
+   "web"
+  ],
+  "title": "NonKyc.io",
+  "url": "https://hackenproof.com/programs/nonkyc-dot-io",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "cube-exchange-web": {
+  "ev": 51.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Cube Exchange Web",
+  "url": "https://hackenproof.com/programs/cube-exchange-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "cetus-web": {
+  "ev": 50.3,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Cetus Web",
+  "url": "https://hackenproof.com/programs/cetus-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "deepfi-games": {
+  "ev": 50.3,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 3000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "  DeepFi Games",
+  "url": "https://hackenproof.com/programs/deepfi-games",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "09 Jun 2026"
+ },
+ "blockchain-dot-com": {
+  "ev": 49.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "Blockchain.com Web & Mobile",
+  "url": "https://hackenproof.com/programs/blockchain-dot-com",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "1inch-web": {
+  "ev": 49.3,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 50000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "1inch Web",
+  "url": "https://hackenproof.com/programs/1inch-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "kub-chain-and-ecosystem": {
+  "ev": 49.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "blockchain",
+   "web"
+  ],
+  "title": "KUB Chain & Ecosystem",
+  "url": "https://hackenproof.com/programs/kub-chain-and-ecosystem",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "gmgn-web-and-mobile": {
+  "ev": 48.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 1000000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "GMGN Web & Mobile",
+  "url": "https://hackenproof.com/programs/gmgn-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "adi-foundation-zkvm-verification": {
+  "ev": 47.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "ADI Foundation zkVM Verification",
+  "url": "https://hackenproof.com/programs/adi-foundation-zkvm-verification",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "adi-foundation-smart-contracts": {
+  "ev": 47.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "ADI Foundation Smart Contracts",
+  "url": "https://hackenproof.com/programs/adi-foundation-smart-contracts",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "1inch-wallet": {
+  "ev": 47.2,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "mobile"
+  ],
+  "title": "1inch Wallet",
+  "url": "https://hackenproof.com/programs/1inch-wallet",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "phemex-web-and-mobile": {
+  "ev": 46.9,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 500000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "Phemex Web & Mobile",
+  "url": "https://hackenproof.com/programs/phemex-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "kaia-protocol": {
+  "ev": 46.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 50000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Kaia Protocol",
+  "url": "https://hackenproof.com/programs/kaia-protocol",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "synfutures-dapp": {
+  "ev": 46.0,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "SynFutures dApp",
+  "url": "https://hackenproof.com/programs/synfutures-dapp",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "amlbot-kyt-web": {
+  "ev": 44.9,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 1500.0,
+  "domains": [
+   "api",
+   "web"
+  ],
+  "title": "AMLBot KYT Web",
+  "url": "https://hackenproof.com/programs/amlbot-kyt-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "dexx-web-and-mobile": {
+  "ev": 44.6,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "DEXX Web & Mobile",
+  "url": "https://hackenproof.com/programs/dexx-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "volo-web": {
+  "ev": 44.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Volo Web ",
+  "url": "https://hackenproof.com/programs/volo-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "deepfi-trade": {
+  "ev": 43.7,
+  "verdict": "-EV",
+  "dup_pays": null,
+  "max_bounty": 3000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "DeepFi Trade",
+  "url": "https://hackenproof.com/programs/deepfi-trade",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "09 Jun 2026"
+ },
+ "emojicoin-dot-fun-frontend": {
+  "ev": 43.4,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 2000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "emojicoin.fun frontend",
+  "url": "https://hackenproof.com/programs/emojicoin-dot-fun-frontend",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "09 Sep 2025"
+ },
+ "flipster-web-and-mobile": {
+  "ev": 43.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 3000.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "Flipster Web & Mobile",
+  "url": "https://hackenproof.com/programs/flipster-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bitkub-blockchain-technology": {
+  "ev": 42.3,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 2500.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "Bitkub Blockchain Technology",
+  "url": "https://hackenproof.com/programs/bitkub-blockchain-technology",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "stbl-web": {
+  "ev": 42.2,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "STBL Web",
+  "url": "https://hackenproof.com/programs/stbl-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "ofza-web": {
+  "ev": 41.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "OFZA Web",
+  "url": "https://hackenproof.com/programs/ofza-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bag-labs-web": {
+  "ev": 41.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Bag Labs Web ",
+  "url": "https://hackenproof.com/programs/bag-labs-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "tapbit-web-and-mobile": {
+  "ev": 41.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "Tapbit Web & Mobile",
+  "url": "https://hackenproof.com/programs/tapbit-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "gate-us": {
+  "ev": 41.4,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Gate US",
+  "url": "https://hackenproof.com/programs/gate-us",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "noones-web-and-mobile": {
+  "ev": 40.2,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "NoOnes Web & Mobile",
+  "url": "https://hackenproof.com/programs/noones-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "kcex": {
+  "ev": 40.2,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "KCEX",
+  "url": "https://hackenproof.com/programs/kcex",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "levex-web-and-mobile": {
+  "ev": 40.2,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "LeveX Web & Mobile",
+  "url": "https://hackenproof.com/programs/levex-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "kaia-web": {
+  "ev": 40.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Kaia Web ",
+  "url": "https://hackenproof.com/programs/kaia-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "09 Feb 2026"
+ },
+ "nado-web": {
+  "ev": 40.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Nado Web",
+  "url": "https://hackenproof.com/programs/nado-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "navi-protocol-web": {
+  "ev": 40.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "NAVI Protocol Web",
+  "url": "https://hackenproof.com/programs/navi-protocol-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "layer3-web": {
+  "ev": 40.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Layer3 Web",
+  "url": "https://hackenproof.com/programs/layer3-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zoomex-web-and-mobile": {
+  "ev": 40.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "Zoomex Web & Mobile",
+  "url": "https://hackenproof.com/programs/zoomex-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "cex-dot-io-web-and-mobile": {
+  "ev": 39.9,
+  "verdict": "-EV",
+  "dup_pays": null,
+  "max_bounty": 500.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "CEX.IO Web & Mobile",
+  "url": "https://hackenproof.com/programs/cex-dot-io-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "monday-trade-web": {
+  "ev": 39.6,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 3000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Monday Trade Web",
+  "url": "https://hackenproof.com/programs/monday-trade-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "flow-web": {
+  "ev": 39.3,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 4000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Flow Web",
+  "url": "https://hackenproof.com/programs/flow-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "pumb-web": {
+  "ev": 39.1,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 2000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "PUMB Web",
+  "url": "https://hackenproof.com/programs/pumb-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": "17 Mar 2027"
+ },
+ "astros-web": {
+  "ev": 38.7,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Astros Web",
+  "url": "https://hackenproof.com/programs/astros-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zetachain-web-apps": {
+  "ev": 38.2,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 500.0,
+  "domains": [
+   "web"
+  ],
+  "title": "ZetaChain Web Apps",
+  "url": "https://hackenproof.com/programs/zetachain-web-apps",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": false,
+  "end_date": "21 Apr 2026"
+ },
+ "lendvest-smart-contracts": {
+  "ev": 36.6,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 30000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Lendvest Smart Contracts",
+  "url": "https://hackenproof.com/programs/lendvest-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bitkan-web-and-mobile": {
+  "ev": 36.1,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 500.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "BitKan Web & Mobile",
+  "url": "https://hackenproof.com/programs/bitkan-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "ascendex-web-and-mobile": {
+  "ev": 34.9,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 500.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "AscendEX Web & Mobile",
+  "url": "https://hackenproof.com/programs/ascendex-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "multipli-web": {
+  "ev": 34.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 2000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Multipli Web",
+  "url": "https://hackenproof.com/programs/multipli-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zetachain-blockchain-software": {
+  "ev": 34.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "ZetaChain Blockchain Software",
+  "url": "https://hackenproof.com/programs/zetachain-blockchain-software",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bitkub-capital-group-holdings": {
+  "ev": 34.3,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 1000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Bitkub Capital Group Holdings",
+  "url": "https://hackenproof.com/programs/bitkub-capital-group-holdings",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "near-intents-bridges": {
+  "ev": 32.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 300000.0,
+  "domains": [
+   "blockchain",
+   "smart_contract"
+  ],
+  "title": "NEAR Intents: Bridges",
+  "url": "https://hackenproof.com/programs/near-intents-bridges",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "amlbot-web": {
+  "ev": 31.8,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 500.0,
+  "domains": [
+   "web"
+  ],
+  "title": "AMLBot Web",
+  "url": "https://hackenproof.com/programs/amlbot-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zeko-protocol": {
+  "ev": 30.7,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 3000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Zeko Protocol",
+  "url": "https://hackenproof.com/programs/zeko-protocol",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zo-finance-smart-contracts": {
+  "ev": 30.3,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "ZO Finance Smart Contracts",
+  "url": "https://hackenproof.com/programs/zo-finance-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zetachain-smart-contracts": {
+  "ev": 30.3,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "ZetaChain Smart Contracts",
+  "url": "https://hackenproof.com/programs/zetachain-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "sg-forge-smart-contracts": {
+  "ev": 30.3,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract",
+   "web"
+  ],
+  "title": "SG Forge Smart Contracts",
+  "url": "https://hackenproof.com/programs/sg-forge-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "swap-dot-io-smart-contracts": {
+  "ev": 29.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 100000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Swap.io Smart Contracts",
+  "url": "https://hackenproof.com/programs/swap-dot-io-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "noya-dot-ai-smart-contracts": {
+  "ev": 29.1,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 50000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "NOYA.ai Smart Contracts",
+  "url": "https://hackenproof.com/programs/noya-dot-ai-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "celestia": {
+  "ev": 28.5,
+  "verdict": "-EV",
+  "dup_pays": null,
+  "max_bounty": 375000.0,
+  "domains": [
+   "blockchain",
+   "web"
+  ],
+  "title": "Celestia",
+  "url": "https://hackenproof.com/programs/celestia",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "gear-protocol": {
+  "ev": 28.5,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 25000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Gear Protocol",
+  "url": "https://hackenproof.com/programs/gear-protocol",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "flow-wallet": {
+  "ev": 28.4,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 25000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "Flow Wallet ",
+  "url": "https://hackenproof.com/programs/flow-wallet",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "doubleup-smart-contracts": {
+  "ev": 26.1,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 50000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "DoubleUp Smart Contracts",
+  "url": "https://hackenproof.com/programs/doubleup-smart-contracts",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "fmcpay-web-and-mobile": {
+  "ev": 24.1,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "FMCPAY Web & Mobile",
+  "url": "https://hackenproof.com/programs/fmcpay-web-and-mobile",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "meest-poshta-mobile": {
+  "ev": 23.8,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 1000.0,
+  "domains": [
+   "mobile"
+  ],
+  "title": "Meest Poshta Mobile",
+  "url": "https://hackenproof.com/programs/meest-poshta-mobile",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "doubleup-web": {
+  "ev": 23.6,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "DoubleUp Web",
+  "url": "https://hackenproof.com/programs/doubleup-web",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "coinmetro-exchange": {
+  "ev": 23.0,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 3000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "CoinMetro Exchange",
+  "url": "https://hackenproof.com/programs/coinmetro-exchange",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "rtree-finance-web": {
+  "ev": 22.1,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Rtree Finance Web",
+  "url": "https://hackenproof.com/programs/rtree-finance-web",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zo-finance-web": {
+  "ev": 20.8,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "web"
+  ],
+  "title": "ZO Finance Web",
+  "url": "https://hackenproof.com/programs/zo-finance-web",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "grovex-web-and-mobile": {
+  "ev": 19.7,
+  "verdict": "-EV",
+  "dup_pays": false,
+  "max_bounty": 1500.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "GroveX Web & Mobile",
+  "url": "https://hackenproof.com/programs/grovex-web-and-mobile",
+  "status": "PAUSED",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ }
+}
