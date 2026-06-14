@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""
-programs_scout_watch.py — scheduled scout + Telegram alerts.
+"""Scheduled scout runner with Telegram alerts.
 
-Re-runs programs_scout, diffs against last snapshot, and pings Telegram ONLY on
-high-signal changes (new +EV programs, especially smart-contract scope where
-duplicates still pay, or a program flipping into +EV). Anti-spam by design —
-the campaign rules everywhere punish noise, so we only fire on things worth a look.
+Re-runs the scout, diffs against the last snapshot, and sends a Telegram message
+only on high-signal changes: a new +EV program, a new open audit contest, or a
+program flipping into +EV. Quiet by default so it does not spam.
 
-Wire via launchd (com.ton.programscout) every ~12h. Fail-safe: never raises.
+Modes:
+  (default)    full scrape + diff + alert
+  --seed       snapshot the current state without sending alerts
+  --sentinel   light listing-only poll for new launches (run frequently)
 """
 import json, os, sys, datetime, urllib.parse, urllib.request
 
@@ -17,11 +18,11 @@ import programs_scout as ps
 
 STATE = os.path.join(HERE, "scout_watch_state.json")
 TG_CONFIG = os.path.join(HERE, ".telegram_config.json")
-JOURNAL = os.path.join(HERE, "claude_notes.md")
+JOURNAL = os.path.join(HERE, "scout_log.md")
 ALERT_CAP = 8
 
 
-# ── Telegram (mirrors fresh_commit_watch, kept local to avoid import side-effects) ──
+# --- Telegram ---
 def _tg_creds():
     tok = os.environ.get("TON_WATCH_TG_TOKEN")
     chat = os.environ.get("TON_WATCH_TG_CHAT")
@@ -39,7 +40,7 @@ def _tg_creds():
 def notify_telegram(text):
     tok, chat = _tg_creds()
     if not tok or not chat:
-        print("telegram NOT SENT — no token/chat_id")
+        print("telegram NOT SENT - no token/chat_id")
         return False
     try:
         data = urllib.parse.urlencode({
@@ -55,7 +56,7 @@ def notify_telegram(text):
         return False
 
 
-# ── state ──
+# --- state ---
 def load_state():
     if os.path.exists(STATE):
         try:
@@ -81,15 +82,15 @@ def snap(rec):
     }
 
 
-# ── diff / alert logic (high-signal only) ──
+# --- diff / alert logic ---
 def interesting_new(rec):
     doms = rec.get("domains") or []
     sc = "smart_contract" in doms
-    # audit/DualDefense contests are time-boxed: only alert while the window is OPEN
+    # audit/DualDefense contests are time-boxed: only alert while the window is open
     if rec.get("is_audit"):
         if not rec.get("is_open"):
             return False
-        # an open SC/chain audit is the rep-friendly dup-pay surface — always flag it
+        # an open smart-contract or chain audit is always worth flagging
         if sc or "blockchain" in doms:
             return True
     if rec["verdict"] == "+EV":
@@ -102,45 +103,46 @@ def interesting_new(rec):
 
 
 def material_change(old, rec):
-    # paused → live = a buy signal (and live → paused worth knowing)
+    # a resume or pause is worth knowing
     os_, ns_ = str(old.get("status") or "").upper(), str(rec.get("status") or "").upper()
     if os_ == "PAUSED" and ns_ == "LIVE":
-        return "▶ RESUMED (now LIVE — submittable again)"
+        return "▶ RESUMED (now LIVE, submittable again)"
     if os_ == "LIVE" and ns_ == "PAUSED":
         return "⏸ paused (no longer submittable)"
     # crossed into +EV
     if old.get("verdict") != "+EV" and rec["verdict"] == "+EV":
-        return "→ now +EV"
+        return "now +EV"
     # duplicates started paying
     if old.get("dup_pays") is not True and rec.get("dup_pays") is True:
-        return "→ now pays duplicates (pool)"
+        return "now pays duplicates (pool)"
     # ceiling jumped a lot
     ob, nb = old.get("max_bounty") or 0, rec.get("max_bounty") or 0
     if nb >= 2 * max(ob, 1) and nb - ob >= 50000:
-        return f"→ ceiling ${ob:.0f}→${nb:.0f}"
+        return f"ceiling ${ob:.0f} -> ${nb:.0f}"
     return None
 
 
 def dup_tag(d):
-    return {True: "dup✓", False: "dup✗"}.get(d, "dup?")
+    return {True: "dup+", False: "dup-"}.get(d, "dup?")
 
 
 def run():
-    payload = ps.run(include_others=False, cache_only=False)  # HackenProof primary
+    payload = ps.run(include_others=False, cache_only=False)
     hp = payload["hackenproof"]
     state = load_state()
     prev_count = len(state)
 
-    # degraded-scrape heartbeat: if we parsed far fewer than the healthy baseline,
-    # the scrape likely choked (network / SPA-shell). Alert, and DO NOT clobber the
-    # dedup baseline with a tiny snapshot (else next run sees the rest as "new" → spam).
+    # degraded-scrape guard: if far fewer programs parsed than the healthy
+    # baseline, the scrape likely failed (network or SPA shell). Alert, and do
+    # not overwrite the baseline with a tiny snapshot, or the next run would see
+    # the rest as new and spam.
     if prev_count >= 50 and len(hp) < 0.6 * prev_count:
         notify_telegram(
             f"⚠️ <b>Program scout degraded</b>\n"
-            f"parsed only {len(hp)} of ~{prev_count} programs this run — likely a "
+            f"parsed only {len(hp)} of ~{prev_count} programs this run, likely a "
             f"scrape/network issue. Baseline preserved; will retry next cycle.")
         print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M}] scout DEGRADED: "
-              f"{len(hp)}/{prev_count} parsed — state preserved, no diff")
+              f"{len(hp)}/{prev_count} parsed, state preserved, no diff")
         return
 
     new_hits, changed_hits = [], []
@@ -164,7 +166,7 @@ def run():
         return
 
     new_hits.sort(key=lambda r: r["scores"]["ev"], reverse=True)
-    lines = ["🧭 <b>Program scout</b> — new opportunities"]
+    lines = ["🧭 <b>Program scout</b> - new opportunities"]
     for rec in new_hits[:ALERT_CAP]:
         dom = ",".join(d[:4] for d in (rec.get("domains") or [])) or "?"
         tag = f"🧪 AUDIT (ends {rec.get('end_date')}) · " if rec.get("is_audit") else ""
@@ -181,12 +183,12 @@ def run():
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M}] scout alert: "
           f"{len(new_hits)} new, {len(changed_hits)} changed · TG sent={sent}")
 
-    # one-line journal trace, matching fresh_commit_watch convention
+    # one-line log trace
     try:
         with open(JOURNAL, "a", encoding="utf-8") as f:
-            f.write(f"\n[{datetime.datetime.now():%Y-%m-%d %H:%M}] 🧭 scout: "
-                    f"{len(new_hits)} new +EV-ish, {len(changed_hits)} changed "
-                    f"(of {len(hp)} HP programs). Top: "
+            f.write(f"\n[{datetime.datetime.now():%Y-%m-%d %H:%M}] scout: "
+                    f"{len(new_hits)} new, {len(changed_hits)} changed "
+                    f"(of {len(hp)} programs). Top: "
                     + "; ".join(f"{r.get('title')} (EV {r['scores']['ev']})" for r in new_hits[:3])
                     + "\n")
     except OSError:
@@ -194,8 +196,8 @@ def run():
 
 
 def seed():
-    """Arm the watcher silently: snapshot current state, send NO alerts.
-    Uses cache so it is instant. After this, run() only fires on real deltas."""
+    """Snapshot the current state and send no alerts. Uses cache so it is fast.
+    After seeding, run() only fires on real changes."""
     payload = ps.run(include_others=False, cache_only=True)
     hp = payload["hackenproof"]
     save_state({rec["slug"]: snap(rec) for rec in hp})
@@ -203,14 +205,13 @@ def seed():
 
 
 def sentinel():
-    """Fast launch-detector (run every ~15min): poll ONLY the listing pages for
-    NEW slugs (cheap — a handful of requests, not all ~131 detail pages). On a
-    genuinely new program/audit, fetch just that one detail page, score it, fold it
-    into the shared baseline, and Telegram-alert if interesting (open audits + new
-    +EV bounties). The full deep scrape with EV/dup scoring stays on the 3h run()."""
+    """Light launch detector for frequent runs. Polls only the listing pages for
+    new slugs (a handful of requests, not every detail page). For each genuinely
+    new program or audit, fetch its detail page, score it, fold it into the shared
+    baseline, and alert if interesting. The full scrape stays on run()."""
     state = load_state()
     known = set(state.keys())
-    SHORT_TTL = 600  # so a 15-min poll re-fetches the listing instead of reusing 3h cache
+    SHORT_TTL = 600  # short ttl so a frequent poll re-fetches the listing
     try:
         bounty = ps.hp_list_slugs(cache_only=False, ttl=SHORT_TTL)
         audit = ps.hp_audit_list_slugs(cache_only=False, ttl=SHORT_TTL)
@@ -232,7 +233,7 @@ def sentinel():
         if not rec:
             continue
         rec = ps.score(rec)
-        state[slug] = snap(rec)            # fold into baseline so the 3h run won't re-alert
+        state[slug] = snap(rec)            # fold into baseline so run() won't re-alert
         if interesting_new(rec):
             hits.append(rec)
     save_state(state)
@@ -241,7 +242,7 @@ def sentinel():
         print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M}] sentinel: {len(new)} new slug(s), none interesting")
         return
     hits.sort(key=lambda r: r["scores"]["ev"], reverse=True)
-    lines = ["⚡ <b>Scout sentinel</b> — fresh launch detected"]
+    lines = ["⚡ <b>Scout sentinel</b> - fresh launch detected"]
     for rec in hits[:ALERT_CAP]:
         dom = ",".join(d[:4] for d in (rec.get("domains") or [])) or "?"
         tag = f"🧪 AUDIT (ends {rec.get('end_date')}) · " if rec.get("is_audit") else ""
@@ -253,7 +254,7 @@ def sentinel():
     print(f"[{datetime.datetime.now():%Y-%m-%d %H:%M}] sentinel ALERT: {len(hits)} new interesting · TG sent={sent}")
     try:
         with open(JOURNAL, "a", encoding="utf-8") as f:
-            f.write(f"\n[{datetime.datetime.now():%Y-%m-%d %H:%M}] ⚡ sentinel: {len(hits)} fresh launch(es): "
+            f.write(f"\n[{datetime.datetime.now():%Y-%m-%d %H:%M}] sentinel: {len(hits)} fresh launch(es): "
                     + "; ".join(f"{r.get('title')} (EV {r['scores']['ev']})" for r in hits[:3]) + "\n")
     except OSError:
         pass
@@ -274,6 +275,5 @@ if __name__ == "__main__":
         try:
             run()
         except Exception as e:
-            # crash heartbeat: a hard failure must not be silent
             notify_telegram(f"⚠️ <b>Program scout crashed</b>\n{type(e).__name__}: {e}")
             raise
