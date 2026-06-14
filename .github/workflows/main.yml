@@ -1,0 +1,38 @@
+name: scout-sentinel
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout-sentinel
+  cancel-in-progress: false
+
+jobs:
+  sentinel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check for new programs / audits
+        env:
+          TON_WATCH_TG_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TON_WATCH_TG_CHAT: '478594467'
+        run: python programs_scout_watch.py --sentinel
+
+      - name: Persist updated baseline
+        run: |
+          git config user.name  "scout-bot"
+          git config user.email "scout-bot@users.noreply.github.com"
+          git add scout_watch_state.json
+          git commit -m "scout: update baseline [skip ci]" || echo "no changes to commit"
+          git push || echo "nothing to push"
