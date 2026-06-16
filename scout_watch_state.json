@@ -2013,5 +2013,20 @@
   "is_audit": false,
   "is_open": true,
   "end_date": null
+ },
+ "darts-sc-dualdefense-audit": {
+  "ev": 80.4,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 3000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "DART's SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/darts-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "30 Jun 2026"
  }
 }
