@@ -29,10 +29,16 @@ jobs:
           TON_WATCH_TG_CHAT: '478594467'
         run: python programs_scout_watch.py --sentinel
 
+      - name: Check for new audit contests (Sherlock/Cantina/Code4rena)
+        env:
+          TON_WATCH_TG_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TON_WATCH_TG_CHAT: '478594467'
+        run: python contest_watch.py
+
       - name: Persist updated baseline
         run: |
           git config user.name  "scout-bot"
           git config user.email "scout-bot@users.noreply.github.com"
-          git add scout_watch_state.json
+          git add scout_watch_state.json contest_watch_state.json
           git commit -m "scout: update baseline [skip ci]" || echo "no changes to commit"
           git push || echo "nothing to push"
