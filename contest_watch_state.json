@@ -1,9 +1,4 @@
 {
- "sh:1279": {
-  "st": "OPEN",
-  "title": "Metric",
-  "platform": "Sherlock"
- },
  "sh:1234": {
   "st": "OPEN",
   "title": "Tare",
