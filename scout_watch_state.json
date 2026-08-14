@@ -2308,5 +2308,35 @@
   "is_audit": true,
   "is_open": true,
   "end_date": "21 Aug 2026"
+ },
+ "europeum-tir-sc-dualdefense-audit": {
+  "ev": 80.6,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum TIR SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-tir-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "21 Aug 2026"
+ },
+ "europeum-track-and-trace-sc-dualdefense-audit": {
+  "ev": 80.4,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum Track and Trace SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-track-and-trace-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "21 Aug 2026"
  }
 }
