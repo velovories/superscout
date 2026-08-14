@@ -2293,5 +2293,20 @@
   "is_audit": true,
   "is_open": false,
   "end_date": "22 Jul 2026"
+ },
+ "europeum-didr-sc-dualdefense-audit": {
+  "ev": 81.9,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum DIDR SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-didr-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "21 Aug 2026"
  }
 }
