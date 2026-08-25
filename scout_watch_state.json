@@ -2338,5 +2338,159 @@
   "is_audit": true,
   "is_open": true,
   "end_date": "21 Aug 2026"
+ },
+ "bingx-exchange": {
+  "ev": 51.9,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 4000.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "BingX Exchange",
+  "url": "https://hackenproof.com/programs/bingx-exchange",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "chainstack": {
+  "ev": 53.6,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 2000.0,
+  "domains": [
+   "api",
+   "blockchain",
+   "web"
+  ],
+  "title": "Chainstack",
+  "url": "https://hackenproof.com/programs/chainstack",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "cronos-web": {
+  "ev": 47.6,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 2500.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Cronos Web",
+  "url": "https://hackenproof.com/programs/cronos-web",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "zendex-sc-dualdefense-audit": {
+  "ev": 74.4,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Zendex SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/zendex-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "09 Sep 2026"
+ },
+ "europeum-timestamp-sc-dualdefense-audit": {
+  "ev": 71.7,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum Timestamp SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-timestamp-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "25 Aug 2026"
+ },
+ "europeum-bootstrap-sc-dualdefense-audit": {
+  "ev": 73.9,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum Bootstrap SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-bootstrap-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "25 Aug 2026"
+ },
+ "europeum-tcr-sc-dualdefense-audit": {
+  "ev": 71.7,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum TCR SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-tcr-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "25 Aug 2026"
+ },
+ "europeum-beacon-proxy-sc-dualdefense-audit": {
+  "ev": 73.9,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum Beacon Proxy SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-beacon-proxy-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "24 Aug 2026"
+ },
+ "europeum-tsr-sc-dualdefense-audit": {
+  "ev": 71.8,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum TSR SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-tsr-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "24 Aug 2026"
+ },
+ "europeum-tpr-sc-dualdefense-audit": {
+  "ev": 71.7,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 2000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Europeum TPR SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-tpr-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": false,
+  "end_date": "24 Aug 2026"
  }
 }
