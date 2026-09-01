@@ -2492,5 +2492,20 @@
   "is_audit": true,
   "is_open": false,
   "end_date": "24 Aug 2026"
+ },
+ "alberich-token-sc-dualdefense-audit": {
+  "ev": 79.4,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 3000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Alberich Token SC DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/alberich-token-sc-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "08 Sep 2026"
  }
 }
