@@ -2507,5 +2507,20 @@
   "is_audit": true,
   "is_open": true,
   "end_date": "08 Sep 2026"
+ },
+ "hinkal-bug-bounty": {
+  "ev": 79.0,
+  "verdict": "+EV",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "Hinkal Bug Bounty",
+  "url": "https://hackenproof.com/programs/hinkal-bug-bounty",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
  }
 }
