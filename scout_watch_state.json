@@ -2522,5 +2522,85 @@
   "is_audit": false,
   "is_open": true,
   "end_date": null
+ },
+ "lcx": {
+  "ev": 52.7,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 3000.0,
+  "domains": [
+   "api",
+   "web"
+  ],
+  "title": "LCX",
+  "url": "https://hackenproof.com/programs/lcx",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "pionex-app-and-api": {
+  "ev": 57.1,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "Pionex App & API",
+  "url": "https://hackenproof.com/programs/pionex-app-and-api",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "poloniex-web-and-api": {
+  "ev": 52.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 5000.0,
+  "domains": [
+   "api",
+   "web"
+  ],
+  "title": "Poloniex Web & API",
+  "url": "https://hackenproof.com/programs/poloniex-web-and-api",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "weex-web-and-app": {
+  "ev": 49.4,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 10000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "WEEX Web & App",
+  "url": "https://hackenproof.com/programs/weex-web-and-app",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bullbit-qa-testing": {
+  "ev": 45.8,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 50.0,
+  "domains": [
+   "web"
+  ],
+  "title": "Bullbit QA Testing",
+  "url": "https://hackenproof.com/programs/bullbit-qa-testing",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": "04 Oct 2026"
  }
 }
