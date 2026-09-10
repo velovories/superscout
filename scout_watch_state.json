@@ -2602,5 +2602,20 @@
   "is_audit": false,
   "is_open": true,
   "end_date": "04 Oct 2026"
+ },
+ "europeum-api-dualdefense-audit": {
+  "ev": 78.7,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 5000.0,
+  "domains": [
+   "blockchain"
+  ],
+  "title": "Europeum API DualDefense Audit",
+  "url": "https://hackenproof.com/audit-programs/europeum-api-dualdefense-audit",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "17 Sep 2026"
  }
 }
