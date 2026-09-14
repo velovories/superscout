@@ -2633,5 +2633,20 @@
   "is_audit": false,
   "is_open": true,
   "end_date": "30 Aug 2027"
+ },
+ "rain-usdr-smart-contract-audit-contest-sept-2026": {
+  "ev": 78.4,
+  "verdict": "+EV",
+  "dup_pays": true,
+  "max_bounty": 14000.0,
+  "domains": [
+   "smart_contract"
+  ],
+  "title": "RAIN-USDR Smart Contract Audit Contest (Sept 2026)",
+  "url": "https://hackenproof.com/audit-programs/rain-usdr-smart-contract-audit-contest-sept-2026",
+  "status": "LIVE",
+  "is_audit": true,
+  "is_open": true,
+  "end_date": "01 Oct 2026"
  }
 }
