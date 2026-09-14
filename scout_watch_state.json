@@ -2617,5 +2617,21 @@
   "is_audit": true,
   "is_open": true,
   "end_date": "17 Sep 2026"
+ },
+ "hotcoin-web-and-mobile": {
+  "ev": 58.7,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 1000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "Hotcoin Web & Mobile",
+  "url": "https://hackenproof.com/programs/hotcoin-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": "30 Aug 2027"
  }
 }
