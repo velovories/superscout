@@ -2648,5 +2648,55 @@
   "is_audit": true,
   "is_open": true,
   "end_date": "01 Oct 2026"
+ },
+ "btse-bug-bounty-program": {
+  "ev": 52.7,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 3000.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "BTSE Bug Bounty Program",
+  "url": "https://hackenproof.com/programs/btse-bug-bounty-program",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "bitrue": {
+  "ev": 50.2,
+  "verdict": "neutral",
+  "dup_pays": null,
+  "max_bounty": 1500.0,
+  "domains": [
+   "api",
+   "mobile",
+   "web"
+  ],
+  "title": "Bitrue",
+  "url": "https://hackenproof.com/programs/bitrue",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
+ },
+ "blofin-web-and-mobile": {
+  "ev": 47.3,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 4000.0,
+  "domains": [
+   "mobile",
+   "web"
+  ],
+  "title": "BloFin Web & Mobile",
+  "url": "https://hackenproof.com/programs/blofin-web-and-mobile",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
  }
 }
