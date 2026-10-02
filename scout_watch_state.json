@@ -2698,5 +2698,21 @@
   "is_audit": false,
   "is_open": true,
   "end_date": null
+ },
+ "ult-trade-stocks-and-crypto": {
+  "ev": 58.9,
+  "verdict": "neutral",
+  "dup_pays": false,
+  "max_bounty": 20000.0,
+  "domains": [
+   "api",
+   "mobile"
+  ],
+  "title": "Ult: Trade Stocks & Crypto",
+  "url": "https://hackenproof.com/programs/ult-trade-stocks-and-crypto",
+  "status": "LIVE",
+  "is_audit": false,
+  "is_open": true,
+  "end_date": null
  }
 }
